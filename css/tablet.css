@@ -1,0 +1,78 @@
+/*Global*/
+body{
+    background-image: url(../assets/bg-main-tablet.png);
+    background-position: top -11.2rem left -25.4rem;
+    background-repeat: no-repeat;
+}
+/*Hero*/
+.container{
+    margin-bottom: 150px;
+}
+.hero{
+    padding: 40px 50px;
+}
+.hero__bg{
+    position: absolute;
+    z-index: -1;
+    width: 266px;
+    height: 400px;
+    top: 0;
+    right: 0;
+    background: url('../assets/bg-pattern-1.svg');
+    background-position: top -3.2rem right -4.6rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.hero__title--container h1{
+    font-size: 6.4rem;
+    letter-spacing: -0.073rem;
+    line-height: 6.4rem;
+}
+.hero__title--container p{
+    margin-top: 3.6rem;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+}
+/*Plan*/
+.plan{
+    margin: 0;
+}
+.plan__bg{
+    width: 90%;
+    margin: 200px auto 0;
+  }
+.plan__bg .plan__bg--img{
+    left: calc(40%);
+    top: -30px;
+    width: 45%;
+}
+.plan__bg .plan__bg--cel{
+    top: -150px;
+    left: calc(8%);
+    width: 45%;
+}
+/*Plan Card*/
+.plan__card{
+    top: 135px;
+    left: 200px;
+    width: 60%;
+}
+.plan__card p{
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+}
+/*Footer*/
+.footer{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+    padding: 20px 50px;
+  }
+.footer__txt{
+    width: 80%;
+    margin-top: 20px;
+}
+.footer__sm{
+    width: 20%;
+}
