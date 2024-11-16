@@ -1,0 +1,27 @@
+.header__title--container .header__button{
+    width: 300px;
+    height: 60px;
+    padding: 20px;
+    font-size: 1.8rem;
+    left: calc(50% - 150px);
+}
+.exchange{
+    padding: 100px 50px;
+    display: flex;
+}
+.exchange__table--master{
+    display: flex;
+    width: 930px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.product__cards--container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
+}
+.plans__slider{
+    justify-content: center;
+    overflow-x: hidden;
+}
